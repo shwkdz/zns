@@ -90,7 +90,7 @@ func (r sqliteTicketReop) Init() {
 }
 
 func expires(t time.Time) time.Time {
-	t = t.AddDate(0, 1, -t.Day()+1)
+	t = t.AddDate(10, 1, -t.Day()+1)
 	year, month, day := t.Date()
 	return time.Date(year, month, day, 0, 0, 0, 0, t.Location())
 }
