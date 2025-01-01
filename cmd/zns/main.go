@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	"github.com/quic-go/quic-go/http3"
-	"github.com/taoso/zns"
+	"github.com/shwkdz/zns"
 	"golang.org/x/crypto/acme/autocert"
 )
 
