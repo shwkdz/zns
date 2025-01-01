@@ -25,6 +25,7 @@ var dbPath string
 var price int
 var free bool
 var root string
+var noref string
 
 func listen() (lnH12 net.Listener, lnH3 net.PacketConn, err error) {
 	if os.Getenv("LISTEN_PID") == strconv.Itoa(os.Getpid()) {
