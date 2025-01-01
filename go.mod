@@ -46,4 +46,3 @@ require (
 	modernc.org/token v1.1.0 // indirect
 )
 
-replace github.com/taoso/zns => github.com/shwkdz/zns
